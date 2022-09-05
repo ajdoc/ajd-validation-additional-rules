@@ -9,7 +9,8 @@ $lang 				= array();
 
 $lang['error_msg']  = array(
 	'country_code' => AddAssert\Country_code_rule_exception::$defaultMessages,
-	'subdivision_code' => Assert\Subdivision_code_rule_exception::$defaultMessages,
+	'subdivision_code' => AddAssert\Subdivision_code_rule_exception::$defaultMessages,
+	'ph_subdivision_code' => AddAssert\SubdivisionCode\Ph_subdivision_code_rule_exception::class
 );
 
 return $lang;
