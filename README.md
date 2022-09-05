@@ -16,7 +16,7 @@ Additional Rules for AJD validation
 use AJD_validation\AJD_validation;
 
 $v->addPackages([
-	AjdRespect\AjdAdditionalRulesServiceProvider::class
+	AjdAddRules\AjdAdditionalRulesServiceProvider::class
 ]);
 ```
 * adding package is usally done in the bootsraping of your application
