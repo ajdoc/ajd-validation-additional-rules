@@ -1,0 +1,26 @@
+{
+    "name": "ajd/ajd-validation-additional-rules",
+    "description": "Additional rules for ajd validation",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Aj Doc",
+            "email": "thedoctorisin17@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AjdAddRules\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    }
+}
